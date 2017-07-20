@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+<body>
+  <div id="main" role="main">
+    <div class="container">
+      {% block content %}
+        {% include 'shop/shop_tabs.html' %}
+      {% endblock %}
+    </div>
+  </div>
+</body>

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 	'aboutus',
 	'shop',
+	'track_order',
 ]
 
 MIDDLEWARE = [

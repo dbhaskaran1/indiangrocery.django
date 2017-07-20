@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+<body>
+  <div id="main" role="main">
+    <div class="container">
+      {% block content %}
+        {% include 'track_order/track_form.html' %}
+      {% endblock %}
+    </div>
+  </div>
+</body>
